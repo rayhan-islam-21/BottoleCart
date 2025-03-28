@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import "./App.css";
 import Products from "./Components/Products/Products";
 
-const productDataPromise = fetch("../public/data.json").then(res=>res.json())
+const productDataPromise = fetch("./utils/data.json").then(res=>res.json())
 
 function App() {
   return <>
