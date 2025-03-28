@@ -1,7 +1,8 @@
 import React, { use, useState } from 'react';
 import Product from '../Product/Product';
 import './Product.css'
-import { addLocalCart } from '../../../public/localStorage';
+import { addLocalCart } from '../../utils/localStorage';
+
 
 const Products = ({productDataPromise}) => {
     const productData = use(productDataPromise)
